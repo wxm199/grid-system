@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: #ccc;
+  width: 100%;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.col-xs-1,.col-xs-12 {
+  border: 1px solid black;
+  height: 50px;
+  float: left;
+  background: rgb(250, 234, 9);
+}
+
+.col-ms-1,.col-ms-12 {
+  border: 1px solid black;
+  height: 50px;
+  float: left;
+  background: rgb(250, 234, 9);
+}
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-11 {
+  width: 50%;
+}
+.col-xs-10 {
+  width: 33.3333333%;
+}
+.col-xs-9 {
+  width: 25%;
+}
+.col-xs-8 {
+  width: 20%;
+}
+.col-xs-7 {
+  width: 16.6666666%;
+}
+.col-xs-6 {
+  width: 14.2857142%;
+}
+.col-xs-5 {
+  width: 12.5%;
+}
+.col-xs-4 {
+  width: 11.1111111%;
+}
+.col-xs-3 {
+  width: 10%;
+}
+.col-xs-2 {
+  width: 9.09090909%;
+}
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+@media (min-width:768px) {
+  .col-ms-1,.col-ms-2,.col-ms-3,.col-ms-4,.col-ms-5,.col-ms-6,.col-ms-7,.col-ms-8,.col-ms-9,.col-ms-10,.col-ms-11,.col-ms-12 {
+    float: left;
+  }
+  .col-ms-12 {
+    width: 100%;
+  }
+  .col-ms-11 {
+    width: 50%;
+  }
+  .col-ms-10 {
+    width: 33.3333333%;
+  }
+  .col-ms-9 {
+    width: 25%;
+  }
+  .col-ms-8 {
+    width: 20%;
+  }
+  .col-ms-7 {
+    width: 16.6666666%;
+  }
+  .col-ms-6 {
+    width: 14.2857142%;
+  }
+  .col-ms-5 {
+    width: 12.5%;
+  }
+  .col-ms-4 {
+    width: 11.1111111%;
+  }
+  .col-ms-3 {
+    width: 10%;
+  }
+  .col-ms-2 {
+    width: 9.09090909%;
+  }
+  .col-ms-1 {
+    width: 8.33333333%;
+  }
+}
+
+
+@media (min-width:1200px) {
+  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .col-lg-11 {
+    width: 50%;
+  }
+  .col-lg-10 {
+    width: 33.3333333%;
+  }
+  .col-lg-9 {
+    width: 25%;
+  }
+  .col-lg-8 {
+    width: 20%;
+  }
+  .col-lg-7 {
+    width: 16.6666666%;
+  }
+  .col-lg-6 {
+    width: 14.2857142%;
+  }
+  .col-lg-5 {
+    width: 12.5%;
+  }
+  .col-lg-4 {
+    width: 11.1111111%;
+  }
+  .col-lg-3 {
+    width: 10%;
+  }
+  .col-lg-2 {
+    width: 9.09090909%;
+  }
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+}
